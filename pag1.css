@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #fbfdfe;
+}
+header {
+  background-color: #03a9f4;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 130px;
+}
+.logo {
+  font-weight: bolder;
+  font-size: 25px;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+.navactions a {
+  text-decoration: none;
+  color: black;
+  padding-left: 20px;
+  font-weight: 600;
+}
+.navactions a:hover {
+  color: rgb(214, 214, 246);
+}
+section {
+  /* display: flex;
+  justify-content: space-between; */
+  padding: 50px 200px;
+  min-height: 100vh;
+}
+.main {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  background-color: #0d0e0f;
+  color: white;
+}
+.main h2 {
+  font-size: 15px;
+  font-weight: 400;
+  display: inline-block;
+  margin-bottom: 10px;
+  color: white;
+}
+.text1 {
+  font-size: 35px;
+  font-weight: bold;
+  display: inline-block;
+  color: #03a9f4;
+  margin-top: 10px;
+}
+.main h3 {
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: 300;
+  color: white;
+}
+
+.icon_social a i {
+  padding-top: 30px;
+  padding-left: 40px;
+  font-size: 30px;
+  transition: 0.7s ease;
+  color: rgb(102, 43, 150);
+}
+.icon_social a i:hover {
+  color: rgb(212, 209, 209);
+  transform: scale(1.1);
+}
+
+#photo1 {
+  width: 400px;
+  height: 550px;
+  padding-top: 30px;
+  border-radius: 180px;
+  transition: 0.7s ease;
+}
+#photo1:hover {
+  transform: scale(1.1);
+}
+.title {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 30px;
+  color: rgb(8, 131, 207);
+  margin-bottom: 60px;
+  margin-top: 70px;
+  margin-bottom: 120px;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.card {
+  width: 30%;
+  background-color: rgb(213, 215, 215);
+
+  margin-left: 30px;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0px 5px 25px rgb(199, 196, 196);
+  
+  transition: 0.7s ease;
+  text-align: center;
+}
+.icon i {
+  font-size: 60px;
+  margin-bottom: 10px;
+  color: rgb(102, 43, 150);
+}
+.info h3 {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+/* projects */
+
+.Projects {
+  background-color: #0d0e0f;
+}
+
+.card_projects {
+  width: 45%;
+  background-color: #fbfdfe;
+  border: 1px solid white;
+  border-radius: 15px;
+  overflow: hidden;
+  margin: 10px;
+  margin-left: 35px;
+  transition: 0.7s ease;
+}
+.card_projects:hover {
+  transform: scale(1.1);
+}
+.project_img img {
+  width: 100%;
+}
+.project_title {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+.view_more {
+  text-decoration: none;
+  color: purple;
+}
+
+.footer {
+  background-color: #0d0e0f;
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+  padding: 10px;
+}
+.footer p {
+  color: #eee;
+}
+.footer p span {
+  color: #03a9f4;
+}
+.icon_Footer a {
+  font-size: 25px;
+  padding-left: 20px;
+  color: rgb(102, 43, 150);
+}
+@media (max-width: 1023px) {
+  header {
+    padding: 12px 20px;
+  }
+  .navactions a {
+    padding-left: 10px;
+  }
+  section {
+    background-repeat: repeat-x;
+    padding: 80px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main h2 {
+    font-size: 1em;
+  }
+  .main h3 {
+    font-size: 20px;
+  }
+  .card{
+    width: 80%;
+    margin: 20px;
+  }
+  .card_projects {
+    width: 80%;
+  }
+  
+}
+@media (max-width: 641px){
+  body{
+    font-size: 15px;
+  }
+  .main h2 {
+    font-size: 0.8em;
+  }
+  .main h3 {
+    font-size: 1.3em;
+  }
+  
+
+}
+@media (max-width: 300px){
+  body{
+    font-size: 10px;
+  }
+  
+  
+
+}
+
